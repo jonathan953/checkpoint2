@@ -1,0 +1,10 @@
+app:
+    version: 1.0
+
+springdoc:
+    swagger-ui:
+      path: /${SWAGGER_PATH:swagger-ui.html}
+      enabled: ${SWAGGER_ENABLED:true}
+    api-docs:
+      path: ${API_DOCS_PATH:/v3/api-docs}
+    enabled: ${API_DOCS_ENABLED:true}
